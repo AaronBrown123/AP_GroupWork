@@ -67,6 +67,8 @@ public class ViewTransactions
 		searchField = new JTextField();
 		searchField.setFont(new Font("Serif", Font.PLAIN, 14));
 		searchField.setBounds(117, 10, 130, 30);
+		searchField.setText(userId);
+	    searchField.setEditable(false);
 		frame.getContentPane().add(searchField );
 		
 		searchB = new JButton("Search");
